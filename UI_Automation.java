@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 public class Test {
 	
 	public static void main (String [] args) throws InterruptedException {
-		To launch Chrome browser
+        To launch Chrome browser
         System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe"); //chrome driver path
 		WebDriver driver = new ChromeDriver();
         //To open url
